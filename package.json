@@ -1,0 +1,7 @@
+{
+  "name": "habit-tracker",
+  "version": "1.0.0",
+  "description": "A simple habit tracker with streaks and a weekly chart. No build step.",
+  "scripts": { "test": "node --test" },
+  "license": "MIT"
+}
