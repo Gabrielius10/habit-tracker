@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Habit Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Habit Tracker</h1>
+    <form id="add-form">
+      <input id="new-habit" placeholder="New habit, e.g. Read 20 pages" maxlength="60" required>
+      <button class="primary">Add</button>
+    </form>
+    <p id="empty">No habits yet. Add one above to get started.</p>
+    <ul id="habits"></ul>
+    <section>
+      <h2>Last 7 days</h2>
+      <canvas id="chart" height="140"></canvas>
+    </section>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <script src="src/streaks.js"></script>
+  <script src="src/app.js"></script>
+</body>
+</html>
